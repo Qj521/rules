@@ -1,4 +1,32 @@
 payload:
+  # ==================== 瓜子影视去广告 & API 直连 ====================
+  - DOMAIN,api.mxtxqe.com
+  - DOMAIN,api.sef5w7.com
+  - DOMAIN,sdapi.u4gdp3.com
+  - DOMAIN,sdapi.4zu76s.com
+  - DOMAIN,sdapi.re3k7n.com
+  - DOMAIN,api.xqe4cxu.com
+  - DOMAIN,api.syq8gvw.com
+  - DOMAIN,api.zjypp7x.com
+  - DOMAIN,sdapi.6ne6zmh.com
+  - DOMAIN,sdapi.g4k74qn.com
+  - DOMAIN,sdapi.tymnpk4.com
+  - DOMAIN,sdapi.use3p2m.com
+  - DOMAIN,api.7gmsut2m.com
+  - DOMAIN,api.tkfupxqu.com
+  - DOMAIN,api.5h5hbfhh.com
+  - DOMAIN,api.qchyzkww.com
+  - DOMAIN,api.cjxxpgkq.com
+  - DOMAIN,api.rqqakqyn.com
+  - DOMAIN,api.tezpgdzn.com
+  - DOMAIN,api.bmjb2mk7.com
+  - DOMAIN,api.46d5umpk.com
+  - DOMAIN,newapi.kanshipinaxsdf.com
+  - DOMAIN,hyperf.718fd9f.com
+  - DOMAIN,oldapi.0673ddc.com
+
+  # ==================== 根域名泛后缀直连 ====================
+  - DOMAIN-SUFFIX,syq8gvw.com
   - DOMAIN-SUFFIX,u4gdp3.com
   - DOMAIN-SUFFIX,re3k7n.com
   - DOMAIN-SUFFIX,wmvbo.com
