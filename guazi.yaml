@@ -1,31 +1,11 @@
-# ==================== 瓜子影视直连规则 ====================
-- domain_suffix:
-    match: u4gdp3.com
-    policy: DIRECT
-- domain_suffix:
-    match: re3k7n.com
-    policy: DIRECT
-- domain_suffix:
-    match: wmvbo.com
-    policy: DIRECT
-- domain_suffix:
-    match: 67c6c7a.com
-    policy: DIRECT
-- domain_suffix:
-    match: jjawa.com
-    policy: DIRECT
-- domain_suffix:
-    match: emw5es6.com
-    policy: DIRECT
-- domain_suffix:
-    match: guazitv.tv
-    policy: DIRECT
-- domain_suffix:
-    match: guazitv1.com
-    policy: DIRECT
-- domain_suffix:
-    match: gz360.tv
-    policy: DIRECT
-- domain_suffix:
-    match: gz44.app
-    policy: DIRECT
+payload:
+  - DOMAIN-SUFFIX,u4gdp3.com
+  - DOMAIN-SUFFIX,re3k7n.com
+  - DOMAIN-SUFFIX,wmvbo.com
+  - DOMAIN-SUFFIX,67c6c7a.com
+  - DOMAIN-SUFFIX,jjawa.com
+  - DOMAIN-SUFFIX,emw5es6.com
+  - DOMAIN-SUFFIX,guazitv.tv
+  - DOMAIN-SUFFIX,guazitv1.com
+  - DOMAIN-SUFFIX,gz360.tv
+  - DOMAIN-SUFFIX,gz44.app
