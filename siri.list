@@ -1,0 +1,14 @@
+# ===== Apple Intelligence / Siri AI 核心分流规则（OpenAI 策略组） =====
+
+# 私有云计算及 AI 关联端点
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN,api-glb-sea.smoot.apple.com
+
+# iCloud 隐私中继 / AI 网络请求相关
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-KEYWORD,apple-relay
+
+# 关联的 iCloud 网关及鉴权
+DOMAIN-SUFFIX,gateway.icloud.com
