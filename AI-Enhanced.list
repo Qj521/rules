@@ -93,5 +93,13 @@ DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,workos.com
 DOMAIN-SUFFIX,x.ai
 
+# ===== Apple Intelligence 补充 =====
+DOMAIN,cp4.cloudflare.com
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,ls.apple.com
 # ===== URL-REGEX =====
 URL-REGEX,https://www\.google\.com/.*continue=https://gemini\.google\.com.+
