@@ -1,12 +1,14 @@
 # 规则名称: YouTube (Enhanced)
 # 来源: blackmatrix7 YouTube.list + 补漏硬编码
 # 说明: 合并官方规则集与媒体域名兜底（googlevideo / ytimg / ggpht 等）
+# 2026-11-28 更新: Surge 实测 videoplayback 走 googlevideo.com、log_event 走 youtubei.googleapis.com，均已在列；本次显式补 s.youtube.com、lh3.googleusercontent.com
 # 建议策略: Streaming
 
 domain_suffix_set:
   - ggpht.cn
   - ggpht.com
   - googlevideo.com
+  - lh3.googleusercontent.com # 2026-11-28 Surge 实测补漏：YouTube 头像/缩略图
   - gvt1.com
   - gvt2.com
   - video.google.com
@@ -52,6 +54,7 @@ domain_suffix_set:
   - youtube.co.za
   - youtube.co.zw
   - youtube.com
+  - s.youtube.com # 2026-11-28 Surge 实测：s.youtube.com 曾走 YouTube-Enhanced，显式保留
   - youtube.com.ar
   - youtube.com.au
   - youtube.com.az
